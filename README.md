@@ -27,3 +27,7 @@ Full Stack Project using:
 ### Frontend
 
 - Open index.html using Live Server
+
+### The project was hosted by "somme.com" and "netlify.com" ==> " You can try it out for yourself through this link. "
+
+- https://easy-employee-manage-system.netlify.app/
