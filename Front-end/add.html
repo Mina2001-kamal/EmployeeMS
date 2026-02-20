@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Employee</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="add.html">Add Employee</a>
+    <a href="view.html">View Employees</a>
+    <a href="update.html">Update Employee</a>
+    <a href="delete.html">Delete Employee</a>
+    <a href="search.html">Search</a>
+</nav>
+
+<div class="container hero">
+    <h1>Add New Employee</h1>
+    <p>Fill the form below to add a new employee to your system.</p>
+</div>
+
+<form id="addForm">
+    <input type="text" id="name" placeholder="Full Name">
+    <small id="nameMsg" style="color:red"></small>
+
+    <input type="text" id="job" placeholder="Job Title">
+    <small id="jobMsg" style="color:red"></small>
+
+    <input type="text" id="dept" placeholder="Department">
+    <small id="deptMsg" style="color:red"></small>
+
+    <input type="number" id="salary" placeholder="Salary">
+    <small id="salaryMsg" style="color:red"></small>
+
+    <input type="text" id="phone" placeholder="Phone Number">
+    <small id="phoneMsg" style="color:red"></small>
+
+    <button type="submit">Add Employee</button>
+    <div class="alert" id="msg"></div>
+</form>
+
+<script src="js/app.js"></script>
+</body>
+</html>

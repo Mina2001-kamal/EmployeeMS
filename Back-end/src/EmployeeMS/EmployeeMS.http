@@ -1,0 +1,17 @@
+@EmployeeMS_HostAddress = http://localhost:5258
+
+### Add Employee
+POST {{EmployeeMS_HostAddress}}/add
+Content-Type: application/json
+
+{
+  "fullName": "Ahmed Ali",
+  "jobTitle": "Developer",
+  "department": "IT",
+  "salary": 5000,
+  "phoneNumber": "01012345678"
+}
+
+### View Employees
+GET {{EmployeeMS_HostAddress}}/view
+Accept: application/json
